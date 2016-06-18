@@ -1,0 +1,7 @@
+package: echo-extended
+import:
+  - package: github.com/labstack/echo
+  - package: github.com/facebookgo/inject
+  - package: github.com/asaskevich/govalidator
+  - package: github.com/Sirupsen/logrus
+  - package: github.com/valyala/fasthttp
