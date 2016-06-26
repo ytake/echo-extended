@@ -1,7 +1,14 @@
 package: echo-extended
+license: MIT
+owners:
+  - name: yuuki takezawa
+    email: yuuki.takezawa@comnect.jp.net
 import:
   - package: github.com/labstack/echo
+  - package: github.com/facebookgo/grace
   - package: github.com/facebookgo/inject
+  - package: github.com/facebookgo/httpdown
   - package: github.com/asaskevich/govalidator
   - package: github.com/Sirupsen/logrus
-  - package: github.com/valyala/fasthttp
+  - package: github.com/jagregory/halgo
+  - package: github.com/jtacoma/uritemplates
